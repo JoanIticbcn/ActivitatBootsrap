@@ -1,9 +1,45 @@
+/*El header del carrousel he canviat el css perque s'adapti*/
 header.masthead {
   position: relative;
   background-size: cover;
   padding-bottom: 2rem;
 }
-
+/*El codi de la nova seccio de caraceristicas*/
+section.Caraceristicas{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width:1200px){
+  table.table-striped{
+    width: 70%;
+  }
+  div.loremL{
+    width: 30%;
+  }
+}
+@media(max-width:992px){
+  table.table-striped{
+    width: 50%;
+  }
+  div.loremL{
+    width: 50%;
+  }
+}
+@media(max-width:500px){
+  table.table-striped{
+    width: 100%;
+  }
+  div.loremL{
+    width: 100%;
+  }
+  section.Caraceristicas{
+    flex-direction: column;
+  }
+}
+/*-----------------------------*/
 .showcase .showcase-text {
   padding: 3rem;
 }
