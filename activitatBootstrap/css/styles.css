@@ -4,14 +4,6 @@ header.masthead {
   background-size: cover;
   padding-bottom: 2rem;
 }
-/*El codi de la nova seccio de caraceristicas*/
-section.Caraceristicas{
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 5vw;
-  display: flex;
-  flex-direction: row;
-}
 /*-----------------------------*/
 .showcase .showcase-text {
   padding: 3rem;
@@ -22,38 +14,6 @@ section.Caraceristicas{
   background-size: cover;
 }
 
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
-}
-@media(max-width:1200px){
-  table.table-striped{
-    width: 70%;
-  }
-  div.loremL{
-    width: 30%;
-  }
-}
-@media(max-width:992px){
-  table.table-striped{
-    width: 50%;
-  }
-  div.loremL{
-    width: 50%;
-  }
-}
-@media(max-width:500px){
-  table.table-striped{
-    width: 100%;
-  }
-  div.loremL{
-    width: 100%;
-  }
-  section.Caraceristicas{
-    flex-direction: column;
-  }
-}
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
